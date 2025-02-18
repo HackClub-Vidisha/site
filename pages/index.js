@@ -65,7 +65,9 @@ const Super = styled(Text)`
   const HomePage = () => (
     <>
 
-      <Head><Meta
+      <Head>
+          <title>Home</title>
+          <Meta
           as={Head} // component to wrap tags in, defaults to React.Fragment
           name="Hack Club" // site name
           title="Home" // page title
