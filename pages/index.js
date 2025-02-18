@@ -170,7 +170,7 @@ const Super = styled(Text)`
           <Heading variant="headline">How can I join Hackclub?</Heading>
           <Card as="main" sx={{ p: 4, mt: 1, borderRadius: 'extra', bg: 'sheet' }}>
             <Text variant='subtitle'>
-              If you are a teenager below 18 years of age, you can fill the form <Link href="https://hackclubvidisha.fillout.com/t/hvsp3Wgnqqus">here</Link>.
+              If you are a teenager below 18 years of age, you can fill the <Link href="https://hackclubvidisha.fillout.com/t/hvsp3Wgnqqus">Signup form</Link>.
             </Text>
           </Card>
         </Container>
