@@ -216,6 +216,7 @@ const NotFoundPage = () => (
         </Button>
       </NextLink>
     </Container>
+    <Footer />
     
   </>
 )
