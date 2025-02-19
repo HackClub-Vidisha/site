@@ -89,7 +89,7 @@ const ConductPage = () => (
             </Container>
         </Box>
 
-        <Container>
+        <Container variant='copy' sx={{ py: [3, 4] }}>
             <Text>
                 <Heading as="h2">Hacker Values</Heading>
                 <p>These are the values to which people in the Hack Club community should aspire:</p>
