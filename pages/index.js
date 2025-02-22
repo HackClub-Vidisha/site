@@ -234,6 +234,7 @@ const Super = styled(Text)`
                   <Grid columns={[1,2]} gap={2} mb={2} mr={35}>
                     <Bio
                       bgcolor='#93c4eb'
+                      href='https://aj.webanayjain.tech'
                       img="https://cdn.hackclubber.dev/slackcdn/9cf6e20b90387adc81233745545a684d.jpg"
                       name="Anay Jain"
                       teamRole="Events Lead"
