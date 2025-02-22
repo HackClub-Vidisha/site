@@ -106,7 +106,7 @@ const Super = styled(Text)`
       </Box>
 
       <Container sx={{my: 5}} variant='narrow'>
-        <Text variant='title'><Icon glyph="event-code" size={50}/> Events</Text>
+        <Text variant='title'><Icon glyph="event-code" size={50}/> Upcoming Events</Text>
         <Card
           variant='interactive'
           sx={{
