@@ -108,10 +108,10 @@ const Super = styled(Text)`
       <Container sx={{my: 5}} variant='copy'>
         <Text variant='title'><Icon glyph="event-code" size={50}/> Upcoming Events</Text>
         <Card
-          variant='interactive'
+          
           sx={{
             mt: 3,
-            backgroundImage: t => t.util.gx('#AA5906', '#482500'),
+            backgroundImage: t => t.util.gx('#AA5906', '#AA5906'),
             color: 'white'
           }}
         >
@@ -125,7 +125,8 @@ const Super = styled(Text)`
             Learn how to build HTML and CSS website. <br/>
             <Icon glyph='food'/> Get free Cold Coffee and Pizza <br/>
           </Text>
-          <Button variant='primary'><Link href='https://hackclubvidisha.fillout.com/t/hvsp3Wgnqqus'/>Button</Button>
+          
+          <Link href='https://hackclubvidisha.fillout.com/t/hvsp3Wgnqqus'><Button variant='outline'>Sign up</Button></Link>
         </Card>
       </Container>
       
