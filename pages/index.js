@@ -105,11 +105,12 @@ const Super = styled(Text)`
         </Container>
       </Box>
 
-      <Container sx={{my: 5}} variant='narrow'>
+      <Container sx={{my: 5}} variant='copy'>
         <Text variant='title'><Icon glyph="event-code" size={50}/> Upcoming Events</Text>
         <Card
           variant='interactive'
           sx={{
+            mt: 3,
             backgroundImage: t => t.util.gx('#AA5906', '#482500'),
             color: 'white'
           }}
