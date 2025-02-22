@@ -29,6 +29,7 @@ import {
   import Icon from '@hackclub/icons'
   import Flag from '../components/flag'
 
+
   import React from 'react'
   // Next.js allows fast development of static sites with server-side rendering
   
