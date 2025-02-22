@@ -1,7 +1,7 @@
 {
-  "name": "@hackclub/theme-starter",
+  "name": "hackclubvidisha",
   "version": "0.0.1",
-  "author": "Lachlan Campbell <lachlan@hackclub.com>",
+  "author": "Arjav Jain <arjav@hackclub.app>",
   "license": "MIT",
   "private": true,
   "scripts": {
