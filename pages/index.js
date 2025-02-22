@@ -115,7 +115,7 @@ const Super = styled(Text)`
             color: 'white'
           }}
         >
-          <img src='https://boba.hackclub.com/images/logo.svg'></img>
+          <img src='https://boba.hackclub.com/images/logo.svg' style={{ height: 'auto' }} alt="Boba Workshop" />
           <Heading variant="headline" as="h3" my={0}>
             Boba Workshop
           </Heading>
@@ -125,7 +125,7 @@ const Super = styled(Text)`
             Learn how to build HTML and CSS website. <br/>
             <Icon glyph='food'/> Get free Cold Coffee and Pizza <br/>
           </Text>
-          <Text><Link href='https://hackclubvidisha.fillout.com/t/hvsp3Wgnqqus'><Icon glyph='external' size={16}/>Join workshop</Link></Text>
+          <Button variant='primary'><Link href='https://hackclubvidisha.fillout.com/t/hvsp3Wgnqqus'/>Button</Button>
         </Card>
       </Container>
       
