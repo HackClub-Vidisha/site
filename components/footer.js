@@ -161,7 +161,7 @@ const Footer = ({
               name="YouTube"
             />
             <Service
-              href="https://www.instagram.com/starthackclub"
+              href="https://www.instagram.com/hackclubvidisha"
               icon="instagram"
               name="Instagram"
             />
