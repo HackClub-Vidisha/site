@@ -105,6 +105,28 @@ const Super = styled(Text)`
         </Container>
       </Box>
 
+      <Container sx={{my: 5}} variant='narrow'>
+        <Text variant='title'><Icon glyph="event-code" size={50}/> Events</Text>
+        <Card
+          variant='interactive'
+          sx={{
+            backgroundImage: t => t.util.gx('#AA5906', '#482500'),
+            color: 'white'
+          }}
+        >
+          <img src='https://boba.hackclub.com/images/logo.svg'></img>
+          <Heading variant="headline" as="h3" my={0}>
+            Boba Workshop
+          </Heading>
+          <Text variant='subtitle' color='snow'>
+            <Icon glyph="clock" size={24} sx={{pt:100}} />
+            4-6 PM, March 7 <br/>
+            Learn how to build HTML and CSS website. <br/>
+            <Icon glyph='food'/> Get free Cold Coffee and Pizza <br/>
+          </Text>
+          <Text><Link href='https://hackclubvidisha.fillout.com/t/hvsp3Wgnqqus'><Icon glyph='external' size={16}/>Join workshop</Link></Text>
+        </Card>
+      </Container>
       
       <Container sx={{my: 5}} variant='wide'>
         <Flex sx={{alignItems: 'center', flexWrap: 'wrap'}}>
