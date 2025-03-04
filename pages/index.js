@@ -219,7 +219,7 @@ const Super = styled(Text)`
             
                   <Grid columns={[1, 1]} gap={2} mb={2} mr={35}>
                     <Bio
-                      href="https://jain.arjav.tech"
+                      href="https://arjav.dino.icu"
                       bgcolor='#93c4eb'
                       img="https://cdn.hack.pet/slackcdn/af5e31e9f4358229cee49d68786916e7.jpg"
                       name="Arjav Jain"
