@@ -106,30 +106,7 @@ const Super = styled(Text)`
         </Container>
       </Box>
 
-      <Container sx={{my: 5}} variant='copy'>
-        <Text variant='title'><Icon glyph="event-code" size={50}/> Upcoming Events</Text>
-        <Card
-          
-          sx={{
-            mt: 3,
-            backgroundImage: t => t.util.gx('#AA5906', '#AA5906'),
-            color: 'white'
-          }}
-        >
-          <img src='https://boba.hackclub.com/images/logo.svg' style={{ height: 'auto' }} alt="Boba Workshop" />
-          <Heading variant="headline" as="h3" my={0}>
-            Boba Workshop
-          </Heading>
-          <Text variant='subtitle' color='snow'>
-            <Icon glyph="clock" size={24} sx={{pt:100}} />
-            4-6 PM, March 7 <br/>
-            Learn how to build HTML and CSS website. <br/>
-            <Icon glyph='food'/> Get free Cold Coffee and Pizza <br/>
-          </Text>
-          
-          <Link href='https://hackclubvidisha.fillout.com/t/hvsp3Wgnqqus'><Button variant='outline'>Sign up</Button></Link>
-        </Card>
-      </Container>
+
       
       <Container sx={{my: 5}} variant='wide'>
         <Flex sx={{alignItems: 'center', flexWrap: 'wrap'}}>
@@ -210,7 +187,29 @@ const Super = styled(Text)`
           </Card>
         </Container>
       </Flex>
-
+    
+      <Container sx={{my: 5, color:'smoke'}} variant='copy'>
+        <Text variant='title'><Icon glyph="event-code" size={50}/> Past Events</Text>
+        <Card
+          sx={{
+            mt: 3,
+            bgcolor: 'elevated',
+            color: 'secondary'
+          }}
+        >
+          <Heading variant="headline" as="h3" my={0}>
+            Boba Workshop
+          </Heading>
+          <Text variant='subtitle' >
+            <Icon glyph="clock" size={24} sx={{pt:100}} />
+            4-6 PM, March 7 <br/>
+            Learn how to build HTML and CSS website. <br/>
+            <Icon glyph='food'/> Get free Cold Coffee and Pizza <br/>
+          </Text>
+          
+          
+        </Card>
+      </Container>
 
 
       <Container >
