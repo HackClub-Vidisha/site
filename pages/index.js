@@ -35,6 +35,7 @@ import {
 import Philosophy from '../components/custom/philosophy'
 import Faq from '../components/custom/faq'
 import Pastevent from '../components/custom/event'
+import Header from '../components/custom/header'
   // Next.js allows fast development of static sites with server-side rendering
   
   // Fast development my ass!
@@ -61,17 +62,7 @@ Row.defaultProps = { sx: { px: 3, py: [3, 4], color: 'black' } }
   const HomePage = () => (
     <>
 
-      <Head>
-          <title>Home</title>
-          <Meta
-          as={Head} // component to wrap tags in, defaults to React.Fragment
-          name="Hack Club" // site name
-          title="Home" // page title
-          description="Hackclub Vidisha is a high school coding club in vidisha" // page description
-          image="https://hackathons.hackclub.com/card.png" // large summary image URL
-          color="#ec3750" // theme color
-          manifest="/site.webmanifest" />
-      </Head>
+      <Header/>
       
       <Top/>
       
