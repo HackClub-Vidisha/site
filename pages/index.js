@@ -34,6 +34,7 @@ import {
   import React from 'react'
 import Philosophy from '../components/custom/philosophy'
 import Faq from '../components/custom/faq'
+import Pastevent from '../components/custom/event'
   // Next.js allows fast development of static sites with server-side rendering
   
   // Fast development my ass!
@@ -78,28 +79,7 @@ Row.defaultProps = { sx: { px: 3, py: [3, 4], color: 'black' } }
 
       <Faq/>
     
-      <Container sx={{my: 5, color:'smoke'}} variant='copy'>
-        <Text variant='title'><Icon glyph="event-code" size={50}/> Past Events</Text>
-        <Card
-          sx={{
-            mt: 3,
-            bgcolor: 'elevated',
-            color: 'secondary'
-          }}
-        >
-          <Heading variant="headline" as="h3" my={0}>
-            Boba Workshop
-          </Heading>
-          <Text variant='subtitle' >
-            <Icon glyph="clock" size={24} sx={{pt:100}} />
-            4-6 PM, March 7 <br/>
-            Learn how to build HTML and CSS website. <br/>
-            <Icon glyph='food'/> Get free Cold Coffee and Pizza <br/>
-          </Text>
-          
-          
-        </Card>
-      </Container>
+      <Pastevent/>
       <Team/>    
       
       <Footer></Footer>
