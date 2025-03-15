@@ -21,16 +21,23 @@ import {
   } from 'theme-ui'
   import Head from 'next/head'
   import Meta from '@hackclub/meta'
-  import theme from '@hackclub/theme'
-  import ColorSwitcher from '../components/color-switcher'
-  import Bio from '../components/bio'
-  import Footer from '../components/footer'
-  import styled from '@emotion/styled'
-  import Icon from '@hackclub/icons'
-  import Flag from '../components/flag'
+
   
   import React from 'react'
 
+  const projects = [
+    {
+      name: 'Arjav',
+      code: 'https://github.com/arjav0703/boba',
+      demo: 'https://arjav0703.github.io/boba/'
+    },
+    {
+      name: 'Anay',
+      code: 'https://github.com/Anayjain1129/BOBA',
+      demo: 'https://anayjain1129.github.io/BOBA/'
+    }
+
+  ]
 
   const ProjectPage = () => (
     <>
